@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    background-color: #3D3F46;
+    font-family: "Gill Sans";
+}
+
+#header {
+    background-color: #101933;
+    color: #727273;
+    margin: 0;
+    height: 90px;
+}
+
+#tytul {
+    height: 50px;
+    width: 40%;
+    font-weight: 100;
+    font-size: 40px;
+    float: left;
+    margin: 20px;
+}
+
+#podtytul {
+    font-weight: 100;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    float: left;
+}
+
+#jez_foto {
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
