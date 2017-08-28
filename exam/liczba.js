@@ -1,10 +1,10 @@
-var int = prompt ('Podaj liczbę całkowitą:');
+var liczba = parseInt(prompt ('Podaj liczbę całkowitą:'));
 
-if (int >= 0 && int != 0) {
-    document.write('Liczba ' + int + ' jest dodatnia.');
+if (liczba > 0) {
+    document.write('Liczba ' + liczba + ' jest dodatnia.');
 }
-else if (int <= 0 && int != 0) {
-    document.write('Liczba ' + int + ' jest ujemna.');
+else if (liczba < 0) {
+    document.write('Liczba ' + liczba + ' jest ujemna.');
 }
 else {
     document.write('Ta liczba to 0.');
