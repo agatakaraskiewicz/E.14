@@ -11,24 +11,22 @@ window.onload = function() {
         }
         else {
             document.getElementById('podstrony').innerText = 'Ta liczba to 0.';
-        }
-    }
+        };
+    };
     document.getElementById('zakres').onclick = function() {
         var poczatkowa = parseInt(prompt ('Podaj liczbę początkową:'));
         var koncowa = parseInt(prompt ('Podaj liczbę końcową:'));
 
         if (poczatkowa < koncowa) {
             for (i = poczatkowa; i <= koncowa; i++)
-                var wynik2 = document.write(i + ' ');
+                document.getElementById('podstrony').innerText = i + ' ';
         }
         else if (koncowa < poczatkowa) {
             for (e = poczatkowa; e >= koncowa; e--)
-               var wynik2 = document.write(e + ' ');
+               document.getElementById('podstrony').innerText = e + ' ';
         }
         else {
-           var wynik2 = document.write('Te liczby są rowne.');
+           document.getElementById('podstrony').innerText = 'Te liczby są rowne.';
         }
-        
-        document.getElementById('podstrony').innerText = wynik2;
     }
 }
