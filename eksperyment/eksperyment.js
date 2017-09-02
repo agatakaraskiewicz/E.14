@@ -3,19 +3,15 @@ window.onload = function() {
         var licz = prompt ('Podaj liczbę całkowitą:');
 
         if (licz >= 0 && licz != 0) {
-            var wynik = document.write('Liczba ' + licz + ' jest dodatnia.');
-            document.getElementById('podstrony').innerText;
+            document.getElementById('podstrony').innerText = 'Liczba ' + licz + ' jest dodatnia.';
         }
         else if (int <= 0 && int != 0) {
-            var wynik = document.write('Liczba ' + licz + ' jest ujemna.');
+            document.getElementById('podstrony').innerText = 'Liczba ' + licz + ' jest ujemna.';
             
         }
         else {
-            var wynik = document.write('Ta liczba to 0.');
+            document.getElementById('podstrony').innerText = 'Ta liczba to 0.';
         }
-        
-        document.getElementById('podstrony').innerText = wynik;
-        
     }
     document.getElementById('zakres').onclick = function() {
         var poczatkowa = parseInt(prompt ('Podaj liczbę początkową:'));
